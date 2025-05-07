@@ -18,7 +18,7 @@ local function teleportToNewServer()
 end
 
 -- ตั้งเวลา 30 นาที (1800 วินาที)
-local TIME_INTERVAL = 3600 -- 30 minutes in seconds
+local TIME_INTERVAL = 20 -- 30 minutes in seconds
 
 -- รันสคริปต์เมื่อเริ่มทำงาน
 task.spawn(function()
